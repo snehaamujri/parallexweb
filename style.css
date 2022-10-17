@@ -1,0 +1,68 @@
+html,body{
+    height:100%;
+    margin:0;
+    font-size:16px;
+    font-family:"fantasy",sans-serif;
+    font-weight:400;
+    line-height:1.8em;
+    color:#666;
+}
+.ping1{
+    background-image:url(images/imagef1.jpg);
+    min-height:100%;
+
+
+}
+.ping2{
+    background-image:url(images/imaget3.jpg);
+    min-height:500px;
+}
+.ping3{
+    background-image:url(images/imaget4.jpg);
+    
+    min-height:500px;
+}
+.ping4{
+    background-image:url(images/imaget5.jpg);
+    min-height:100%;
+}
+.ping1,.ping2,.ping3,.ping4{
+    position : relative ;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.ptext{
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align:center;
+    color:black;
+    font-size:30px;
+    letter-spacing:uppercase ;
+}
+.textBg{
+    background:rgb(144, 225, 225);
+    color:black;
+    padding:20px;
+    font-size:50px;
+    border-radius: 20px;
+    font-family:fantasy;
+    letter-spacing: 3px;
+    text-transform:uppercase;
+
+}
+.section {
+    padding : 50px 80px;
+    text-align:center;
+}
+.section-light{
+    background-color:#f4f4f4;
+    color:rgb(29, 28, 28);
+}
+.section-dark{
+   background-color: #282e34; 
+   color:#ddd;
+}
